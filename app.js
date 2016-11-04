@@ -5,7 +5,7 @@ riot.tag2('about', '<div class="{opts.styles.textContainer}"> <p> <span class="c
 	});
 }, '{ }');
 
-riot.tag2('banner', '<div class="{opts.styles.bannerContainer}"> <div class="{opts.styles.centerContainer}"> <div class="{opts.styles.leftPanel}"> <div class="{opts.styles.titleContainer}"> <h1>FOREVER BEATS</h1> <p>Melodic step sequencer</p> </div> </div> <div class="{opts.styles.rightPanel}"> <div class="{opts.styles.logoAlignmentContainer}"> <div class="{opts.styles.appImageContainer}"> <img src="img/app.png"> </div> <object type="image/svg+xml" data="svg/Audiobus-Badge-Input.svg"></object> </div> </div> </div> </div>', '', '', function(opts) {
+riot.tag2('banner', '<div class="{opts.styles.bannerContainer}"> <div class="{opts.styles.centerContainer}"> <img class="{opts.styles.constructionImage}" src="img/construction.gif"> <div class="{opts.styles.centerConstructionContainer}"> <div class="{opts.styles.centerConstruction}"> <img src="img/fire-under-construction-animation.gif"> </div> </div> <img class="{opts.styles.constructionImage}" src="img/construction.gif"> </div> <div class="{opts.styles.centerContainer}"> <div class="{opts.styles.leftPanel}"> <div class="{opts.styles.titleContainer}"> <h1>FOREVER BEATS</h1> <p>Melodic step sequencer</p> </div> </div> <div class="{opts.styles.rightPanel}"> <div class="{opts.styles.logoAlignmentContainer}"> <div class="{opts.styles.appImageContainer}"> <img src="img/app.png"> </div> <object type="image/svg+xml" data="svg/Audiobus-Badge-Input.svg"></object> </div> </div> </div> </div>', '', '', function(opts) {
 
 	this.on('mount', function() {
 
@@ -207,7 +207,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"bannerContainer":"banner__bannerContainer___2WPtJ","centerContainer":"banner__centerContainer___eO6vQ","leftPanel":"banner__leftPanel___C15wC","rightPanel":"banner__rightPanel___IWHet","titleContainer":"banner__titleContainer___nYo03","logoAlignmentContainer":"banner__logoAlignmentContainer___2GTbI","appImageContainer":"banner__appImageContainer___2UNqb"};
+	module.exports = {"bannerContainer":"banner__bannerContainer___2WPtJ","centerContainer":"banner__centerContainer___eO6vQ","constructionImage":"banner__constructionImage___3NOo3","centerConstructionContainer":"banner__centerConstructionContainer___1cmkx","centerConstruction":"banner__centerConstruction___3cCMv","leftPanel":"banner__leftPanel___C15wC","rightPanel":"banner__rightPanel___IWHet","titleContainer":"banner__titleContainer___nYo03","logoAlignmentContainer":"banner__logoAlignmentContainer___2GTbI","appImageContainer":"banner__appImageContainer___2UNqb"};
 
 /***/ },
 /* 4 */
