@@ -5,13 +5,13 @@ riot.tag2('about', '<div class="{opts.styles.textContainer}"> <p> <span class="c
 	});
 }, '{ }');
 
-riot.tag2('banner', '<div class="{opts.styles.bannerContainer}"> <div class="{opts.styles.centerContainer}"> <div class="{opts.styles.leftPanel}"> <div class="{opts.styles.titleContainer}"> <h1>FOREVER BEATS</h1> <p>Melodic step sequencer</p> <object type="image/svg+xml" data="svg/app_store.svg"></object> </div> </div> <div class="{opts.styles.rightPanel}"> <div class="{opts.styles.logoAlignmentContainer}"> <div class="{opts.styles.appImageContainer}"> <img src="img/app.png"> </div> <object type="image/svg+xml" data="svg/Audiobus-Badge-Input.svg"></object> </div> </div> </div> </div>', '', '', function(opts) {
+riot.tag2('banner', '<div class="{opts.styles.bannerContainer}"> <div class="{opts.styles.centerContainer}"> <div class="{opts.styles.leftPanel}"> <div class="{opts.styles.titleContainer}"> <h1>FOREVER BEATS</h1> <p>Melodic step sequencer</p> </div> </div> <div class="{opts.styles.rightPanel}"> <div class="{opts.styles.logoAlignmentContainer}"> <div class="{opts.styles.appImageContainer}"> <img src="img/app.png"> </div> <object type="image/svg+xml" data="svg/Audiobus-Badge-Input.svg"></object> </div> </div> </div> </div>', '', '', function(opts) {
 
 	this.on('mount', function() {
 
 	});
 }, '{ }');
-riot.tag2('buybuybuy', '<div class="{opts.styles.buybuybuyContainer}"> <div class="{opts.styles.buybuybuyCenterContainer}"> <h2>Download for iPad and iPad pro</h2> <img src="img/app2up.png"> <div class="{opts.styles.buybuybuyCenterSVG}"> <object type="image/svg+xml" data="svg/app_store.svg"></object> </div> </div> </div>', '', '', function(opts) {
+riot.tag2('buybuybuy', '<div class="{opts.styles.buybuybuyContainer}"> <div class="{opts.styles.buybuybuyCenterContainer}"> <h2>Download for iPad and iPad pro</h2> <img src="img/app2up.png"> <div class="{opts.styles.buybuybuyCenterSVG}"> </div> </div> </div>', '', '', function(opts) {
 
 	this.on('mount', function() {
 
@@ -23,7 +23,7 @@ riot.tag2('credits', '<div class="{opts.styles.creditsContainer}"> <div class="{
 
 	});
 }, '{ }');
-riot.tag2('info', '<div class="{opts.styles.infoContainerCenter}"> <div class="{opts.styles.infoContainer}"> <div class="{opts.styles.leftLogoPanel}"> <img src="img/bigLogo.png"> </div> <div class="{opts.styles.rightInfoLogo}"> <p> The app is a melodic step sequencer with synthesised instruments exclusively for iPad. Features include: synthesised bass ambient and percussive elements, midi control out for external instruments, algorithmic features to jam with beats, audiobus support, polymetric </p> </div> <div class="{opts.styles.featureSetContainer}"> <div class="{opts.styles.featureSet}"> <div class="{opts.styles.feature}"> <div class="{opts.styles.circle}"> <div class="{opts.styles.sound}"></div> </div> <p>SYNTHS</p> </div> <div class="{opts.styles.feature}"> <div class="{opts.styles.circle}"> <div class="{opts.styles.midi}"></div> </div> <p>MIDI</p> </div> <div class="{opts.styles.feature}"> <div class="{opts.styles.circle}"> <div class="{opts.styles.algorithm}"></div> </div> <p>ALGORITHMS</p> </div> </div> </div> </div> </div>', '', '', function(opts) {
+riot.tag2('info', '<div class="{opts.styles.infoContainerCenter}"> <div class="{opts.styles.infoContainer}"> <div class="{opts.styles.leftLogoPanel}"> <img src="img/bigLogo.png"> </div> <div class="{opts.styles.rightInfoText}"> <p> Forever Beats is an iPad app for making new beats and hooks, jamming with new ideas and building new compositions. </p> <ul> <li>Intuitively input beats and melodies with touch based gestures and jam with them live using the breaks feature. </li> <li>Establish your own sound with the Forever Beats synth engine. Synthesised percussive, bass and elements are included. </li> <li>Bring the sound to life with 2 LFOs assignable to every synth parameter. </li> <li>Use MIDI output to control your current hardware using the Forever Beats step sequencer.</li> </ul> </div> <div class="{opts.styles.featureSetContainer}"> <div class="{opts.styles.featureSet}"> <div class="{opts.styles.feature}"> <div class="{opts.styles.circle}"> <div class="{opts.styles.sound}"></div> </div> <p>SYNTHS</p> </div> <div class="{opts.styles.feature}"> <div class="{opts.styles.circle}"> <div class="{opts.styles.midi}"></div> </div> <p>MIDI</p> </div> <div class="{opts.styles.feature}"> <div class="{opts.styles.circle}"> <div class="{opts.styles.algorithm}"></div> </div> <p>ALGORITHMS</p> </div> </div> </div> </div> </div>', '', '', function(opts) {
 
 	this.on('mount', function() {
 
@@ -214,7 +214,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"infoContainerCenter":"info__infoContainerCenter___yVzt3","infoContainer":"info__infoContainer___1WF5N","leftLogoPanel":"info__leftLogoPanel___1uLQ0","rightInfoLogo":"info__rightInfoLogo___242I5","featureSetContainer":"info__featureSetContainer___FIQWJ","featureSet":"info__featureSet___3dvM0","feature":"info__feature___3S-I8","circle":"info__circle___3rB4O","sound":"info__sound___3au0v","midi":"info__midi___1Xpdh","algorithm":"info__algorithm___Fu55l"};
+	module.exports = {"infoContainerCenter":"info__infoContainerCenter___yVzt3","infoContainer":"info__infoContainer___1WF5N","leftLogoPanel":"info__leftLogoPanel___1uLQ0","rightInfoText":"info__rightInfoText___3MqvO","featureSetContainer":"info__featureSetContainer___FIQWJ","featureSet":"info__featureSet___3dvM0","feature":"info__feature___3S-I8","circle":"info__circle___3rB4O","sound":"info__sound___3au0v","midi":"info__midi___1Xpdh","algorithm":"info__algorithm___Fu55l"};
 
 /***/ },
 /* 5 */

@@ -155,7 +155,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"infoContainerCenter":"info__infoContainerCenter___yVzt3","infoContainer":"info__infoContainer___1WF5N","leftLogoPanel":"info__leftLogoPanel___1uLQ0","rightInfoLogo":"info__rightInfoLogo___242I5","featureSetContainer":"info__featureSetContainer___FIQWJ","featureSet":"info__featureSet___3dvM0","feature":"info__feature___3S-I8","circle":"info__circle___3rB4O","sound":"info__sound___3au0v","midi":"info__midi___1Xpdh","algorithm":"info__algorithm___Fu55l"};
+	module.exports = {"infoContainerCenter":"info__infoContainerCenter___yVzt3","infoContainer":"info__infoContainer___1WF5N","leftLogoPanel":"info__leftLogoPanel___1uLQ0","rightInfoText":"info__rightInfoText___3MqvO","featureSetContainer":"info__featureSetContainer___FIQWJ","featureSet":"info__featureSet___3dvM0","feature":"info__feature___3S-I8","circle":"info__circle___3rB4O","sound":"info__sound___3au0v","midi":"info__midi___1Xpdh","algorithm":"info__algorithm___Fu55l"};
 
 /***/ },
 /* 5 */
