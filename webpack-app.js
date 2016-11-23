@@ -148,14 +148,14 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"bannerContainer":"banner__bannerContainer___2WPtJ","centerContainer":"banner__centerContainer___eO6vQ","leftPanel":"banner__leftPanel___C15wC","rightPanel":"banner__rightPanel___IWHet","titleContainer":"banner__titleContainer___nYo03","logoAlignmentContainer":"banner__logoAlignmentContainer___2GTbI","appImageContainer":"banner__appImageContainer___2UNqb"};
+	module.exports = {"bannerContainer":"banner__bannerContainer___2WPtJ","centerContainer":"banner__centerContainer___eO6vQ","constructionImage":"banner__constructionImage___3NOo3","centerConstructionContainer":"banner__centerConstructionContainer___1cmkx","centerConstruction":"banner__centerConstruction___3cCMv","leftPanel":"banner__leftPanel___C15wC","rightPanel":"banner__rightPanel___IWHet","titleContainer":"banner__titleContainer___nYo03","logoAlignmentContainer":"banner__logoAlignmentContainer___2GTbI","appImageContainer":"banner__appImageContainer___2UNqb"};
 
 /***/ },
 /* 4 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"infoContainerCenter":"info__infoContainerCenter___yVzt3","infoContainer":"info__infoContainer___1WF5N","leftLogoPanel":"info__leftLogoPanel___1uLQ0","rightInfoLogo":"info__rightInfoLogo___242I5","featureSetContainer":"info__featureSetContainer___FIQWJ","featureSet":"info__featureSet___3dvM0","feature":"info__feature___3S-I8","circle":"info__circle___3rB4O","sound":"info__sound___3au0v","midi":"info__midi___1Xpdh","algorithm":"info__algorithm___Fu55l"};
+	module.exports = {"infoContainerCenter":"info__infoContainerCenter___yVzt3","infoContainer":"info__infoContainer___1WF5N","leftLogoPanel":"info__leftLogoPanel___1uLQ0","rightInfoText":"info__rightInfoText___3MqvO","featureSetContainer":"info__featureSetContainer___FIQWJ","featureSet":"info__featureSet___3dvM0","feature":"info__feature___3S-I8","circle":"info__circle___3rB4O","sound":"info__sound___3au0v","midi":"info__midi___1Xpdh","algorithm":"info__algorithm___Fu55l"};
 
 /***/ },
 /* 5 */
