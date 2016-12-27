@@ -141,7 +141,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"menuContainer":"menu__menuContainer___gXJEP","menuIcon":"menu__menuIcon___3q1yW","menuItemsContainer":"menu__menuItemsContainer___2nzDH","hoverClass":"menu__hoverClass___1dwon","menuItems":"menu__menuItems___2nvqN","mobileMenuContainer":"menu__mobileMenuContainer___2W5WW","mobileMenuItemsContainer":"menu__mobileMenuItemsContainer___1jskf","mobileMenuItems":"menu__mobileMenuItems___3ktES"};
+	module.exports = {"menuContainer":"menu__menuContainer___gXJEP","menuIcon":"menu__menuIcon___3q1yW","closeMenu":"menu__closeMenu___1CsCI","menuItemsContainer":"menu__menuItemsContainer___2nzDH","hoverClass":"menu__hoverClass___1dwon","menuItems":"menu__menuItems___2nvqN","mobileMenuContainer":"menu__mobileMenuContainer___2W5WW","mobileMenuItemsContainer":"menu__mobileMenuItemsContainer___1jskf","mobileMenuItems":"menu__mobileMenuItems___3ktES"};
 
 /***/ },
 /* 3 */
@@ -176,7 +176,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"creditsContainer":"credits__creditsContainer___2J1oA","creditsCenterContainer":"credits__creditsCenterContainer___1Rbic","creditsTitle":"credits__creditsTitle___2oVDd","credit":"credits__credit___2gLmV","title":"credits__title___1wdua","name":"credits__name___F4_FM","link":"credits__link___1cayw"};
+	module.exports = {"creditsContainer":"credits__creditsContainer___2J1oA","creditsCenterContainer":"credits__creditsCenterContainer___1Rbic","creditsTitle":"credits__creditsTitle___2oVDd","credit":"credits__credit___2gLmV","title":"credits__title___1wdua","name":"credits__name___F4_FM","link":"credits__link___1cayw","copyrightContainer":"credits__copyrightContainer___-amCg"};
 
 /***/ },
 /* 8 */

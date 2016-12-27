@@ -17,26 +17,42 @@ riot.tag2('buybuybuy', '<div class="{opts.styles.buybuybuyContainer}"> <div clas
 
 	});
 }, '{ }');
-riot.tag2('credits', '<div class="{opts.styles.creditsContainer}"> <div class="{opts.styles.creditsCenterContainer}"> <h2 class="{opts.styles.creditsTitle}">Who did it? ...and thanks to..</h2> <div class="{opts.styles.credit}"> <h3 class="{opts.styles.title}">The things and stuff</h3> <h2 class="{opts.styles.name}">John Sebastian Hussey</h2> <h4 class="{opts.styles.link}"><a href=""></a></h4> </div> <div class="{opts.styles.credit}"> <h3 class="{opts.styles.title}">Sound Design</h3> <h2 class="{opts.styles.name}">Mei-Fang Liau</h2> <h4 class="{opts.styles.link}"><a href="http://www.mellisonic.com/">http://www.mellisonic.com/</a></h4> </div> <div class="{opts.styles.credit}"> <h3 class="{opts.styles.title}">Design</h3> <h2 class="{opts.styles.name}">Petr Mazoch</h2> <h4 class="{opts.styles.link}"><a href="http://dresing.org/">http://dresing.org/</a></h4> </div> <div class="{opts.styles.credit}"> <h3 class="{opts.styles.title}">Video</h3> <h2 class="{opts.styles.name}">Sofia Crespo</h2> <h4 class="{opts.styles.link}"><a href=""></a></h4> </div> <div class="{opts.styles.credit}"> <h3 class="{opts.styles.title}">Typeface</h3> <h2 class="{opts.styles.name}">Motif (Jan Novák)</h2> <h4 class="{opts.styles.link}"><a href="http://www.jannovak.net/">http://www.jannovak.net/</a></h4> </div> <div class="{opts.styles.credit}"> <h3 class="{opts.styles.title}">Das Ausliehen</h3> <h2 class="{opts.styles.name}">Lars Erberle</h2> <h4 class="{opts.styles.link}"><a href="http://www.meyermillersmith.com/">http://www.meyermillersmith.com/</a></h4> </div> </div> </div>', '', '', function(opts) {
+riot.tag2('credits', '<div class="{opts.styles.creditsContainer}"> <div class="{opts.styles.creditsCenterContainer}"> <h2 class="{opts.styles.creditsTitle}">Credits</h2> <div class="{opts.styles.credit}"> <h3 class="{opts.styles.title}">Product, Code, Process</h3> <h2 class="{opts.styles.name}">John Sebastian Hussey</h2> <h4 class="{opts.styles.link}"><a href=""></a></h4> </div> <div class="{opts.styles.credit}"> <h3 class="{opts.styles.title}">Sound Design</h3> <h2 class="{opts.styles.name}">Mei-Fang Liau</h2> <h4 class="{opts.styles.link}"><a href="http://www.mellisonic.com/">http://www.mellisonic.com/</a></h4> </div> <div class="{opts.styles.credit}"> <h3 class="{opts.styles.title}">Design</h3> <h2 class="{opts.styles.name}">Petr Mazoch</h2> <h4 class="{opts.styles.link}"><a href="http://dresing.org/">http://dresing.org/</a></h4> </div> <div class="{opts.styles.credit}"> <h3 class="{opts.styles.title}">Video</h3> <h2 class="{opts.styles.name}">Sofia Crespo</h2> <h4 class="{opts.styles.link}"><a href=""></a></h4> </div> <div class="{opts.styles.credit}"> <h3 class="{opts.styles.title}">Typeface</h3> <h2 class="{opts.styles.name}">Motif (Jan Novák)</h2> <h4 class="{opts.styles.link}"><a href="http://www.jannovak.net/">http://www.jannovak.net/</a></h4> </div> <div class="{opts.styles.credit}"> <h3 class="{opts.styles.title}">Das Ausliehen</h3> <h2 class="{opts.styles.name}">Lars Erberle</h2> <h4 class="{opts.styles.link}"></h4> </div> </div> </div> <div class="{opts.styles.copyrightContainer}"> <h4>© John Sebastian Hussey 2017. All Rights Reserved.</h4> </div>', '', '', function(opts) {
 
 	this.on('mount', function() {
 
 	});
 }, '{ }');
-riot.tag2('info', '<div class="{opts.styles.infoContainerCenter}"> <div class="{opts.styles.infoContainer}"> <div class="{opts.styles.leftLogoPanel}"> <img src="img/bigLogo.png"> </div> <div class="{opts.styles.rightInfoLogo}"> <p> Forever Beats is a melodic step sequencer with synthesised instruments exclusively for iPad. Features include: synthesised bass, ambient and percussive elements, midi control out for external instruments, algorithmic features to jam with beats, audiobus support and polymetric measures. </p> </div> <div class="{opts.styles.featureSetContainer}"> <div class="{opts.styles.featureSet}"> <div class="{opts.styles.feature}"> <div class="{opts.styles.circle}"> <div class="{opts.styles.sound}"></div> </div> <p>SYNTHS</p> </div> <div class="{opts.styles.feature}"> <div class="{opts.styles.circle}"> <div class="{opts.styles.midi}"></div> </div> <p>MIDI</p> </div> <div class="{opts.styles.feature}"> <div class="{opts.styles.circle}"> <div class="{opts.styles.algorithm}"></div> </div> <p>ALGORITHMS</p> </div> </div> </div> </div> </div>', '', '', function(opts) {
+riot.tag2('info', '<div class="{opts.styles.infoContainerCenter}"> <div class="{opts.styles.infoContainer}"> <div class="{opts.styles.leftLogoPanel}"> <img src="img/bigLogo.png"> </div> <div class="{opts.styles.rightInfoLogo}"> <p> Forever Beats is a melodic step sequencer with synthesised instruments exclusively for iPad. Features include: synthesised bass, ambient and percussive elements, midi control out for external instruments, algorithmic features to jam with beats, audiobus support and polymetric measures. </p> </div> </div> </div>', '', '', function(opts) {
 
 	this.on('mount', function() {
 
 	});
 }, '{ }');
-riot.tag2('appmenu', '<div class="{opts.styles.menuContainer}"> <div class="{opts.styles.menuIcon} js-menu"></div> <div class="{opts.styles.menuItemsContainer}"> <ul class="{opts.styles.menuItems}"> <li><a href="">HOME</a></li> <li><a href="">ABOUT</a></li> <li><a href="">VIDEO</a></li> <li><a href="">SOUNDCLOUD</a></li> <li><a href="">CREDITS</a></li> </ul> </div> </div> <div class="{opts.styles.mobileMenuContainer} js-mobile-menu"> <div class="{opts.styles.mobileMenuItemsContainer}"> <ul class="{opts.styles.mobileMenuItems}"> <li><a href="">HOME</a></li> <li><a href="">ABOUT</a></li> <li><a href="">VIDEO</a></li> <li><a href="">SOUNDCLOUD</a></li> <li><a href="">CREDITS</a></li> </ul> </div> </div>', '', '', function(opts) {
+riot.tag2('appmenu', '<div class="{opts.styles.menuContainer}"> <div class="{opts.styles.menuIcon} js-menu"></div> <div class="{opts.styles.closeMenu} js-close-menu">❌</div> <div class="{opts.styles.menuItemsContainer}"> <ul class="{opts.styles.menuItems}"> <li><a href="/">HOME</a></li> <li><a href="#about">ABOUT</a></li> <li><a href="#video">VIDEO</a></li> <li><a href="#soundcloud">SOUNDCLOUD</a></li> <li><a href="#credits">CREDITS</a></li> </ul> </div> </div> <div class="{opts.styles.mobileMenuContainer} js-mobile-menu"> <div class="{opts.styles.mobileMenuItemsContainer}"> <ul class="{opts.styles.mobileMenuItems}"> <li><a href="/">HOME</a></li> <li><a href="#about">ABOUT</a></li> <li><a href="#video">VIDEO</a></li> <li><a href="#soundcloud">SOUNDCLOUD</a></li> <li><a href="#credits">CREDITS</a></li> </ul> </div> </div>', '', '', function(opts) {
 
 	this.on('mount', function() {
 
 		if (!window.IS_BIG_SCREEN) {
-			$('.js-menu').click(function(e) {
+
+			function toggleMenu() {
 				$('.js-mobile-menu').toggle()
+				$('.js-menu').toggle()
+				$('.js-close-menu').toggle()
+			}
+
+			$('.js-close-menu').click(function(e) {
+				toggleMenu();
 			});
+
+			$('.js-menu').click(function(e) {
+				toggleMenu();
+			});
+
+			$('.js-mobile-menu').click(function(e) {
+				toggleMenu();
+			});
+
 		}
 		else {
 			$('appMenu li').hover(function(e) {
@@ -200,7 +216,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"menuContainer":"menu__menuContainer___gXJEP","menuIcon":"menu__menuIcon___3q1yW","menuItemsContainer":"menu__menuItemsContainer___2nzDH","hoverClass":"menu__hoverClass___1dwon","menuItems":"menu__menuItems___2nvqN","mobileMenuContainer":"menu__mobileMenuContainer___2W5WW","mobileMenuItemsContainer":"menu__mobileMenuItemsContainer___1jskf","mobileMenuItems":"menu__mobileMenuItems___3ktES"};
+	module.exports = {"menuContainer":"menu__menuContainer___gXJEP","menuIcon":"menu__menuIcon___3q1yW","closeMenu":"menu__closeMenu___1CsCI","menuItemsContainer":"menu__menuItemsContainer___2nzDH","hoverClass":"menu__hoverClass___1dwon","menuItems":"menu__menuItems___2nvqN","mobileMenuContainer":"menu__mobileMenuContainer___2W5WW","mobileMenuItemsContainer":"menu__mobileMenuItemsContainer___1jskf","mobileMenuItems":"menu__mobileMenuItems___3ktES"};
 
 /***/ },
 /* 3 */
@@ -235,7 +251,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"creditsContainer":"credits__creditsContainer___2J1oA","creditsCenterContainer":"credits__creditsCenterContainer___1Rbic","creditsTitle":"credits__creditsTitle___2oVDd","credit":"credits__credit___2gLmV","title":"credits__title___1wdua","name":"credits__name___F4_FM","link":"credits__link___1cayw"};
+	module.exports = {"creditsContainer":"credits__creditsContainer___2J1oA","creditsCenterContainer":"credits__creditsCenterContainer___1Rbic","creditsTitle":"credits__creditsTitle___2oVDd","credit":"credits__credit___2gLmV","title":"credits__title___1wdua","name":"credits__name___F4_FM","link":"credits__link___1cayw","copyrightContainer":"credits__copyrightContainer___-amCg"};
 
 /***/ },
 /* 8 */

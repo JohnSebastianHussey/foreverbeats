@@ -68,6 +68,16 @@ a:hover {
 	cursor: pointer;
 }
 
+.menu__closeMenu___1CsCI {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 14px;
+    left: 10px;
+    font-size: 2.5em;
+    display: none;
+}
+
 .menu__menuItemsContainer___2nzDH {
 	display: none;
 	width: 50%;
@@ -255,7 +265,7 @@ a:hover {
 	width: 100%;
 	background-color: #6efff1;
 	float: left;
-	padding-bottom: 60px;
+	padding: 60px 0px 60px 0px
 }
 
 .info__infoContainer___1WF5N {
@@ -265,13 +275,13 @@ a:hover {
 }
 
 .info__leftLogoPanel___1uLQ0 {
-	width: 100%;
 	background-color: #6efff1;
 	float: left;
 }
 
 .info__leftLogoPanel___1uLQ0 img {
 	width: 100%;
+	max-width: 500px;
 }
 
 .info__rightInfoLogo___242I5 {
@@ -295,7 +305,7 @@ a:hover {
 .info__rightInfoLogo___242I5 p {
 	font-family: 'Motif-Regular';
 	font-size: 1.4em;
-	margin: 1em;
+	margin: 60px 1em 1em 1em;
 }
 
 .info__feature___3S-I8 {
@@ -355,17 +365,25 @@ a:hover {
 
 
 	.info__leftLogoPanel___1uLQ0 {
-		width: 50%;
+		max-width: 43%;
+		position: relative;
+    	left: -1em;
+	}
+
+	.info__leftLogoPanel___1uLQ0 img {
+		max-width: 100%;
 	}
 
 	.info__rightInfoLogo___242I5 p {
 		font-family: 'Motif-Regular';
-		font-size: 2em;
-		margin: 2em;
+		font-size: 1.5em;
+		max-width: 466px;
+		max-width: 100%;
+		margin: 60px 1em 1em 0;
 	}
 
 	.info__rightInfoLogo___242I5 {
-		width: 50%;
+		width: 57%;
 	}
 }.videos__videosContainer___FM_B5 {
 	background-color: #1e1e1e;
@@ -446,14 +464,14 @@ a:hover {
 	text-align: center;
 	color: #6dfff0;
 	font-family: 'Motif-Thin';
-    padding: 20px 0 80px 0;
+    padding: 20px 0 40px 0;
 }
 
 .credits__credit___2gLmV {
 	width: 96%;
 	float: left;
 	font-family: 'Motif-Regular';
-    min-height: 150px;
+    min-height: 120px;
     margin: 2%;
 }
 
@@ -479,6 +497,22 @@ a:hover {
 	color: #6dfff0;
 }
 
+.credits__copyrightContainer___-amCg {
+	width: 100%;
+	float: left;
+	background-color: #1e1e1e;
+	padding: 10px 0 40px 0;
+}
+
+.credits__copyrightContainer___-amCg h4 {
+	max-width: 350px;
+	margin: auto;
+	color: #9d9d9d;
+	font-family: 'Motif-Thin';
+	font-size: 0.8em;
+}
+
+
 @media (min-width: 500px) {
 	.credits__credit___2gLmV {
 		width: 46%;
@@ -488,7 +522,6 @@ a:hover {
 	    min-height: 120px;
 	}
 }
-
 
 @media (min-width: 900px) {
 	.credits__credit___2gLmV {
