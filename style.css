@@ -200,11 +200,16 @@ a:hover {
 	width: 100%;
 }
 
+.banner__titleContainer___nYo03 a {
+	float: left;
+}
+
 .banner__logoAlignmentContainer___2GTbI object {
 	float: right;
     padding-top: 23px;
     position: relative;
     right: 18px;
+    float: left;
 }
 
 .banner__logoAlignmentContainer___2GTbI object:hover {
@@ -534,6 +539,7 @@ a:hover {
 	width: 100%;
 	background-color: white;
 	float: left;
+	margin-bottom: 40px;
 }
 
 .buybuybuy__buybuybuyCenterContainer___yDJjC {
@@ -541,7 +547,6 @@ a:hover {
     width: 80%;
     margin: 0 auto;
     padding: 0 10% 60px 10%;
-
 }
 
 .buybuybuy__buybuybuyCenterContainer___yDJjC h2 {
@@ -554,15 +559,23 @@ a:hover {
 
 .buybuybuy__buybuybuyCenterContainer___yDJjC img {
 	width: 100%;
+	float: left;
+	margin-bottom: 40px;
 }
 
 .buybuybuy__buybuybuyCenterSVG___gYzbn {
 	width: 300px;
-	margin: 0 auto;
+    margin: 0 auto;
 }
+
+.buybuybuy__buybuybuyCenterSVG___gYzbn a {
+	float: left;
+}
+
 
 .buybuybuy__buybuybuyCenterSVG___gYzbn object {
 	width: 300px;
+	cursor: pointer;
 }
 
 @media (min-width: 900px) {
