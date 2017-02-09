@@ -67,7 +67,7 @@ riot.tag2('soundcloud', '<div class="{opts.styles.soundcloudContainer}"> <div cl
 
 	});
 }, '{ }');
-riot.tag2('videos', '<div class="{opts.styles.videosContainer}"> <div class="{opts.styles.videosCenterContainer}"> <h2>VIDEO</h2> <iframe width="560" height="315" src="https://www.youtube.com/embed/FtAh6d5w2mA" frameborder="0" allowfullscreen></iframe> </div> </div>', '', '', function(opts) {
+riot.tag2('videos', '<div class="{opts.styles.videosContainer}"> <div class="{opts.styles.videosCenterContainer}"> <h2>VIDEO</h2> <iframe width="560" height="315" src="https://www.youtube.com/embed/FtAh6d5w2mA" frameborder="0" allowfullscreen></iframe> <h2>TUTORIAL</h2> <iframe width="560" height="315" src="https://www.youtube.com/embed/nmfjJYFC0T8" frameborder="0" allowfullscreen></iframe> </div> </div>', '', '', function(opts) {
 
 	this.on('mount', function() {
 
