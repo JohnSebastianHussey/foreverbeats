@@ -204,6 +204,10 @@ a:hover {
 	float: left;
 }
 
+.banner__titleContainer___nYo03 img {
+	cursor: pointer;
+}
+
 .banner__logoAlignmentContainer___2GTbI object {
 	float: right;
     padding-top: 23px;
@@ -573,8 +577,8 @@ a:hover {
 }
 
 
-.buybuybuy__buybuybuyCenterSVG___gYzbn object {
-	width: 300px;
+.buybuybuy__buybuybuyCenterSVG___gYzbn img {
+	width: 200px;
 	cursor: pointer;
 }
 
