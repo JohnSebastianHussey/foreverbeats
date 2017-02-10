@@ -5,13 +5,13 @@ riot.tag2('about', '<div class="{opts.styles.textContainer}"> <p> <span class="c
 	});
 }, '{ }');
 
-riot.tag2('banner', '<div class="{opts.styles.bannerContainer}"> <div class="{opts.styles.centerContainer}"> <div class="{opts.styles.leftPanel}"> <div class="{opts.styles.titleContainer}"> <h1>FOREVER BEATS</h1> <p>Melodic step sequencer</p> <a href="https://itunes.apple.com/us/app/forever-beats/id1163751920?ls=1&mt=8"><object type="image/svg+xml" data="svg/app_store.svg" style="pointer-events: none;"></object></a> </div> </div> <div class="{opts.styles.rightPanel}"> <div class="{opts.styles.logoAlignmentContainer}"> <div class="{opts.styles.appImageContainer}"> <img src="img/app.png"> </div> <object type="image/svg+xml" data="svg/Audiobus-Badge-Input.svg"></object> </div> </div> </div> </div>', '', '', function(opts) {
+riot.tag2('banner', '<div class="{opts.styles.bannerContainer}"> <div class="{opts.styles.centerContainer}"> <div class="{opts.styles.leftPanel}"> <div class="{opts.styles.titleContainer}"> <h1>FOREVER BEATS</h1> <p>Melodic step sequencer</p> <a href="https://itunes.apple.com/us/app/forever-beats/id1163751920?ls=1&mt=8"><object type="image/svg+xml" data="svg/app_store.svg"></object></a> </div> </div> <div class="{opts.styles.rightPanel}"> <div class="{opts.styles.logoAlignmentContainer}"> <div class="{opts.styles.appImageContainer}"> <img src="img/app.png"> </div> <object type="image/svg+xml" data="svg/Audiobus-Badge-Input.svg"></object> </div> </div> </div> </div>', '', '', function(opts) {
 
 	this.on('mount', function() {
 
 	});
 }, '{ }');
-riot.tag2('buybuybuy', '<div class="{opts.styles.buybuybuyContainer}"> <div class="{opts.styles.buybuybuyCenterContainer}"> <h2>Download for iPad and iPad pro</h2> <img src="img/app2up.png"> <div class="{opts.styles.buybuybuyCenterSVG}"> <a href="https://itunes.apple.com/us/app/forever-beats/id1163751920?ls=1&mt=8"><object type="image/svg+xml" style="pointer-events: none;" data="svg/app_store.svg"></object></a> </div> </div> </div>', '', '', function(opts) {
+riot.tag2('buybuybuy', '<div class="{opts.styles.buybuybuyContainer}"> <div class="{opts.styles.buybuybuyCenterContainer}"> <h2>Download for iPad and iPad pro</h2> <img src="img/app2up.png"> <div class="{opts.styles.buybuybuyCenterSVG}"> <a href="https://itunes.apple.com/us/app/forever-beats/id1163751920?ls=1&mt=8"><object type="image/svg+xml" data="svg/app_store.svg"></object></a> </div> </div> </div>', '', '', function(opts) {
 
 	this.on('mount', function() {
 
