@@ -597,9 +597,9 @@ a:hover {
 
 .faq__faqContainer___3vMMU { 
 	background-color: #1e1e1e;
-	max-width: 1300px;
+	min-width: 300px;
+	width: 80%;
     margin: 0 auto;
-    padding: 0px 20px;
 }
 
 .faq__faqTitle___1s7mb {
