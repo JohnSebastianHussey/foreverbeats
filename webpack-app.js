@@ -88,6 +88,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _buybuybuy2 = _interopRequireDefault(_buybuybuy);
 
+	var _faq = __webpack_require__(9);
+
+	var _faq2 = _interopRequireDefault(_faq);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	window["IS_BIG_SCREEN"] = window.innerWidth >= 900;
@@ -127,6 +131,11 @@ return /******/ (function(modules) { // webpackBootstrap
 		$.extend(_credits2.default, _global2.default);
 		riot.mount('credits', {
 			styles: _credits2.default
+		});
+
+		$.extend(_faq2.default, _global2.default);
+		riot.mount('faq', {
+			styles: _faq2.default
 		});
 	});
 
@@ -184,6 +193,13 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	// removed by extract-text-webpack-plugin
 	module.exports = {"buybuybuyContainer":"buybuybuy__buybuybuyContainer___21V5k","buybuybuyCenterContainer":"buybuybuy__buybuybuyCenterContainer___yDJjC","buybuybuyCenterSVG":"buybuybuy__buybuybuyCenterSVG___gYzbn"};
+
+/***/ },
+/* 9 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+	module.exports = {"faqContainerCenter":"faq__faqContainerCenter___3n5Bp","faqContainer":"faq__faqContainer___3vMMU","faqTitle":"faq__faqTitle___1s7mb","question":"faq__question___2gX9j","answer":"faq__answer___2fCBo"};
 
 /***/ }
 /******/ ])

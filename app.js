@@ -23,13 +23,19 @@ riot.tag2('credits', '<div class="{opts.styles.creditsContainer}"> <div class="{
 
 	});
 }, '{ }');
+riot.tag2('faq', '<div class="{opts.styles.faqContainerCenter}"> <div class="{opts.styles.faqContainer}"> <h2 class="{opts.styles.faqTitle}">FAQ</h2> <h3 class="{opts.styles.question}">Something seems to be broken, what should I do?</h3> <p class="{opts.styles.answer}">If you are having problems or you seem to have run into something broken please report it in the <a href="https://groups.google.com/forum/#!forum/forever-beats">forum</a> and we will figure it out.</p> <h3 class="{opts.styles.question}">Is this app getting Ableton Link?</h3> <p class="{opts.styles.answer}">Yes. Music is more fun when it is done with other people so Ableton Link is at the top of the feature list.</p> <h3 class="{opts.styles.question}">Whats going on with MIDI, why is there no MIDI clock sync?</h3> <p class="{opts.styles.answer}">The MIDI implementation of Forever Beats is quite stripped down but will be extended. MIDI clock sync has been added to the feature request list. </p> <h3 class="{opts.styles.question}">Why can\'t my other apps see Forever Beats as a MIDI source?</h3> <p class="{opts.styles.answer}">The stripped down nature of the MIDI implementation means that Forever Beats is currently acting as a master to other hardware. This will be fixed in a future release.</p> <h3 class="{opts.styles.question}">What can I actually do with the MIDI then?</h3> <p class="{opts.styles.answer}">Each track has its own MIDI output assignable to different channels. This can be set up in the MIDI settings modal, which each track has. By default it will output the note information for each track. You can also set each track to percussion mode for controlling drum machines.</p> <h3 class="{opts.styles.question}">How many steps does the sequencer have?</h3> <p class="{opts.styles.answer}">The sequencer has 16 steps but you can change it for each track to have between 1 and 16 steps.</p> <h3 class="{opts.styles.question}">What does the weird icon next to the shift button do?</h3> <p class="{opts.styles.answer}">Actually nothing - its kind of just there, hanging out.</p> <h3 class="{opts.styles.question}">Are you implementating feature requests?</h3> <p class="{opts.styles.answer}">Maybe :) If you have some ideas feel free to share them in the <a href="https://groups.google.com/forum/#!forum/forever-beats">forum</a>. I am certainly listening but I can\'t promise to add everything. </p> </div> </div>', '', '', function(opts) {
+
+	this.on('mount', function() {
+
+	});
+}, '{ }');
 riot.tag2('info', '<div class="{opts.styles.infoContainerCenter}"> <div class="{opts.styles.infoContainer}"> <div class="{opts.styles.leftLogoPanel}"> <img src="img/bigLogo.png"> </div> <div class="{opts.styles.rightInfoLogo}"> <p> Forever Beats is a melodic step sequencer with synthesised instruments exclusively for iPad. Features include: synthesised bass, ambient and percussive elements, midi control out for external instruments, algorithmic features to jam with beats, audiobus support and polymetric measures. </p> </div> <div class="{opts.styles.featureSetContainer}"> <div class="{opts.styles.featureSet}"> <div class="{opts.styles.feature}"> <div class="{opts.styles.circle}"> <div class="{opts.styles.sound}"></div> </div> <p>SYNTHS</p> </div> <div class="{opts.styles.feature}"> <div class="{opts.styles.circle}"> <div class="{opts.styles.midi}"></div> </div> <p>MIDI</p> </div> <div class="{opts.styles.feature}"> <div class="{opts.styles.circle}"> <div class="{opts.styles.algorithm}"></div> </div> <p>ALGORITHMS</p> </div> </div> </div> </div> </div>', '', '', function(opts) {
 
 	this.on('mount', function() {
 
 	});
 }, '{ }');
-riot.tag2('appmenu', '<div class="{opts.styles.menuContainer}"> <div class="{opts.styles.menuIcon} js-menu"></div> <div class="{opts.styles.closeMenu} js-close-menu">❌</div> <div class="{opts.styles.menuItemsContainer}"> <ul class="{opts.styles.menuItems}"> <li><a href="/">HOME</a></li> <li><a href="#about">ABOUT</a></li> <li><a href="#video">VIDEO</a></li> <li><a href="#soundcloud">SOUNDCLOUD</a></li> <li><a href="#credits">CREDITS</a></li> </ul> </div> </div> <div class="{opts.styles.mobileMenuContainer} js-mobile-menu"> <div class="{opts.styles.mobileMenuItemsContainer}"> <ul class="{opts.styles.mobileMenuItems}"> <li><a href="/">HOME</a></li> <li><a href="#about">ABOUT</a></li> <li><a href="#video">VIDEO</a></li> <li><a href="#soundcloud">SOUNDCLOUD</a></li> <li><a href="#credits">CREDITS</a></li> </ul> </div> </div>', '', '', function(opts) {
+riot.tag2('appmenu', '<div class="{opts.styles.menuContainer}"> <div class="{opts.styles.menuIcon} js-menu"></div> <div class="{opts.styles.closeMenu} js-close-menu">❌</div> <div class="{opts.styles.menuItemsContainer}"> <ul class="{opts.styles.menuItems}"> <li><a href="/">HOME</a></li> <li><a href="#about">ABOUT</a></li> <li><a href="#video">VIDEO</a></li> <li><a href="#soundcloud">SOUNDCLOUD</a></li> <li><a href="#credits">CREDITS</a></li> <li><a href="#faq">FAQ</a></li> </ul> </div> </div> <div class="{opts.styles.mobileMenuContainer} js-mobile-menu"> <div class="{opts.styles.mobileMenuItemsContainer}"> <ul class="{opts.styles.mobileMenuItems}"> <li><a href="/">HOME</a></li> <li><a href="#about">ABOUT</a></li> <li><a href="#video">VIDEO</a></li> <li><a href="#soundcloud">SOUNDCLOUD</a></li> <li><a href="#credits">CREDITS</a></li> <li><a href="#faq">FAQ</a></li> </ul> </div> </div>', '', '', function(opts) {
 
 	this.on('mount', function() {
 
@@ -163,6 +169,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _buybuybuy2 = _interopRequireDefault(_buybuybuy);
 
+	var _faq = __webpack_require__(9);
+
+	var _faq2 = _interopRequireDefault(_faq);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	window["IS_BIG_SCREEN"] = window.innerWidth >= 900;
@@ -202,6 +212,11 @@ return /******/ (function(modules) { // webpackBootstrap
 		$.extend(_credits2.default, _global2.default);
 		riot.mount('credits', {
 			styles: _credits2.default
+		});
+
+		$.extend(_faq2.default, _global2.default);
+		riot.mount('faq', {
+			styles: _faq2.default
 		});
 	});
 
@@ -259,6 +274,13 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	// removed by extract-text-webpack-plugin
 	module.exports = {"buybuybuyContainer":"buybuybuy__buybuybuyContainer___21V5k","buybuybuyCenterContainer":"buybuybuy__buybuybuyCenterContainer___yDJjC","buybuybuyCenterSVG":"buybuybuy__buybuybuyCenterSVG___gYzbn"};
+
+/***/ },
+/* 9 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+	module.exports = {"faqContainerCenter":"faq__faqContainerCenter___3n5Bp","faqContainer":"faq__faqContainer___3vMMU","faqTitle":"faq__faqTitle___1s7mb","question":"faq__question___2gX9j","answer":"faq__answer___2fCBo"};
 
 /***/ }
 /******/ ])

@@ -80,7 +80,6 @@ a:hover {
 
 .menu__menuItemsContainer___2nzDH {
 	display: none;
-	width: 50%;
 	height: 30px;
 	margin: 0 auto;
 	position: relative;
@@ -95,7 +94,7 @@ a:hover {
 .menu__menuItems___2nvqN {
     padding: 0px;
     margin: 0px;
-    width: 580px;
+    width: 615px;
     margin: 0 auto;
 }
 
@@ -589,4 +588,44 @@ a:hover {
 	    max-width: 1300px;
 	    padding-bottom: 60px;
 	}
+}.faq__faqContainerCenter___3n5Bp {
+	width: 100%;
+	background-color: #1e1e1e;
+	float: left;
+	padding: 0px 0px 60px 0px
+}
+
+.faq__faqContainer___3vMMU { 
+	background-color: #1e1e1e;
+	max-width: 1300px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+.faq__faqTitle___1s7mb {
+	width: 100%;
+	text-align: center;
+	color: #6dfff0;
+	padding: 20px 0;
+	font-family: 'Motif-Thin';
+}
+
+.faq__question___2gX9j {
+	color: white;
+    margin: 10px 0;
+    text-align: left;
+   	font-family: 'Motif-Regular';
+   	font-size: 1.5em;
+}
+
+.faq__answer___2fCBo {
+	color: #c8c8c8;
+    margin: 10px 0 40px 0px;
+    text-align: left;
+	font-family: 'Motif-Regular';
+	font-size: 1.5em;
+}
+
+.faq__answer___2fCBo a {
+	color: #6dfff0;
 }
